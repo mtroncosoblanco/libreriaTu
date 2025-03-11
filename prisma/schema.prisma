@@ -23,7 +23,7 @@ generator client {
 
 datasource db {
   provider = "sqlite"
-  url = env("DATABASE_URL_TURSO")
+  url = env("TURSO_DATABASE_URL")
   //url      = "file:./dev.db"
 }
 
